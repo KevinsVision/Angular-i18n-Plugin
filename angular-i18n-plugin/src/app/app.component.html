@@ -16,19 +16,21 @@
         <th i18n>Item</th>
         <th i18n>Qty</th>
         <th i18n>Date</th>
+        <th i18n>Tax percentage</th>
         <th i18n>Amount</th>
       </tr>
       <tr>
         <td>Big box item</td>
-        <td>1</td>
-        <td>{{"05/01/2022" | date}}</td>
-        <td>{{129 | currency}}</td>
+        <td>{{1000 | number}}</td>
+        <td>{{"01/01/2022" | date}}</td>
+        <td>{{.086 | percent:'1.2-5'}}</td>
+        <td>{{1529.22 | currency}}</td>
       </tr>
       <tr>
         <td></td>
         <td></td>
         <td i18n class="total-amount-label">Total Amount</td>
-        <td class="total-amount">{{129 | currency}}</td>
+        <td class="total-amount">{{1529.22 | currency}}</td>
       </tr>
     </table>
   </section>
