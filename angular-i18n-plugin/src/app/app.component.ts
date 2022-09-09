@@ -13,4 +13,15 @@ export class AppComponent {
     this.titleService.setTitle($localize`${this.title}`);
   }
 
+  receipt = {
+      minutesToDeliver: 7,
+      gender: 'male',
+      quantity: 1000,
+      purchaseDate: "01/01/2022",
+      cityTax: .086,
+      currency: 1529.22,
+    }
+    // 
+  ;
+
 }

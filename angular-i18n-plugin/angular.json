@@ -10,6 +10,14 @@
           "es-US": {
             "translation": "src/locale/messages.es.xlf",
             "baseHref": "es-US/"
+          },
+          "fr-CA": {
+            "translation": "src/locale/messages.fr.xlf",
+            "baseHref": "fr-CA/"
+          },
+          "pt-BR": {
+            "translation": "src/locale/messages.pt.xlf",
+            "baseHref": "pt-BR/"
           }
         }
       },

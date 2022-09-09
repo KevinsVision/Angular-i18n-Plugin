@@ -21,10 +21,10 @@
       </tr>
       <tr>
         <td>Big box item</td>
-        <td>{{1000 | number}}</td>
-        <td>{{"01/01/2022" | date}}</td>
-        <td>{{.086 | percent:'1.2-5'}}</td>
-        <td>{{1529.22 | currency}}</td>
+        <td>{{receipt.quantity | number}}</td>
+        <td>{{receipt.purchaseDate| date}}</td>
+        <td>{{receipt.cityTax| percent:'1.2-5'}}</td>
+        <td>{{receipt.currency | currency}}</td>
       </tr>
       <tr>
         <td></td>
@@ -34,4 +34,9 @@
       </tr>
     </table>
   </section>
+  <span i18n>Updated: {receipt.minutesToDeliver, plural,
+    =0 {just now}
+    =1 {one minute ago}
+    other {{{receipt.minutesToDeliver}} minutes ago by {receipt.gender, select, male {male} female {female} other {other}}}}
+  </span>
 </main>
