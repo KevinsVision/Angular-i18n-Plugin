@@ -1,27 +1,27 @@
 <main>
   <section class="image-container">
-    <img alt="hero image" i18n-alt class="hero-image" src="assets/undraw_order_confirmed_re_g0if.svg">
+    <img alt="plane image" i18n-alt class="plane-image" src="assets/undraw1_order_confirmed_re_g0if.webp">
   </section>
-  <section class="shipping-details">
+  <section class="ticket-details">
     <h2 i18n>
-      Your order is on its way!
-      <img alt="shipping icon" i18n-alt class="shipping-icon" src="assets/noun-shipping-4326216-63D1FF.png">
+      Your're closer to your destination!
+      <img alt="aa icon" i18n-alt class="aa-icon" src="assets/noun1-shipping-4326216-63D1FF.png">
     </h2>
     <p i18n>
-      Thank you for shopping with us and your order
+      Thank you for flying with us and your ticket
       has been processed.
     </p>
     <table>
       <tr>
-        <th i18n>Item</th>
-        <th i18n>Qty</th>
+        <th i18n>Cabin</th>
+        <th i18n>Miles</th>
         <th i18n>Date</th>
         <th i18n>Tax percentage</th>
         <th i18n>Amount</th>
       </tr>
       <tr>
-        <td>Big box item</td>
-        <td>{{receipt.quantity | number}}</td>
+        <td>Premium Economy</td>
+        <td>{{receipt.miles | number}}</td>
         <td>{{receipt.purchaseDate| date}}</td>
         <td>{{receipt.cityTax| percent:'1.2-5'}}</td>
         <td>{{receipt.currency | currency}}</td>
@@ -34,9 +34,9 @@
       </tr>
     </table>
   </section>
-  <span i18n>Updated: {receipt.minutesToDeliver, plural,
+  <span i18n>Updated: {receipt.minutesUpdated, plural,
     =0 {just now}
     =1 {one minute ago}
-    other {{{receipt.minutesToDeliver}} minutes ago by {receipt.gender, select, male {male} female {female} other {other}}}}
+    other {{{receipt.minutesUpdated}} minutes ago by {receipt.gender, select, male {male} female {female} other {other}}}}
   </span>
 </main>

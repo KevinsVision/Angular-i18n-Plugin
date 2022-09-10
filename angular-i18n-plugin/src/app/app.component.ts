@@ -14,10 +14,10 @@ export class AppComponent {
   }
 
   receipt = {
-      minutesToDeliver: 7,
+      minutesUpdated: 2,
       gender: 'male',
-      quantity: 1000,
-      purchaseDate: "01/01/2022",
+      miles: 10000,
+      purchaseDate: "01/01/2023",
       cityTax: .086,
       currency: 1529.22,
     }

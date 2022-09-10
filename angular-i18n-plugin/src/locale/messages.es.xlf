@@ -2,49 +2,49 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="3277059772153279197" datatype="html">
-        <source>hero image</source>
-        <target>imagen de héroe</target>
+      <trans-unit id="6478394265508229137" datatype="html">
+        <source>plane image</source>
+        <target>imagen de avión</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4963770382876927129" datatype="html">
-        <source> Your order is on its way! <x id="TAG_IMG" ctype="image" equiv-text="&lt;img alt=&quot;shipping icon&quot; i18n-alt class=&quot;shipping-icon&quot; src=&quot;../assets/noun-shipping-4326216-63D1FF.png&quot;&gt;"/></source>
-        <target> ¡Su pedido está en camino! <x id="TAG_IMG" ctype="image" equiv-text="&lt;img alt=&quot;shipping icon&quot; i18n-alt class=&quot;shipping-icon&quot; src=&quot;../assets/noun-shipping-4326216-63D1FF.png&quot;&gt;"/></target>
+      <trans-unit id="6103207930768317609" datatype="html">
+        <source> Your&apos;re closer to your destination! <x id="TAG_IMG" ctype="image" equiv-text="&lt;img alt=&quot;aa icon&quot; i18n-alt class=&quot;aa-icon&quot; src=&quot;assets/noun1-shipping-4326216-63D1FF.png&quot;&gt;"/></source>
+        <target> ¡Estás más cerca de tu destino! <x id="TAG_IMG" ctype="image" equiv-text="&lt;img alt=&quot;shipping icon&quot; i18n-alt class=&quot;shipping-icon&quot; src=&quot;../assets/noun-shipping-4326216-63D1FF.png&quot;&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">6,8</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="183871222561584409" datatype="html">
-        <source>shipping icon</source>
-        <target>icono de envío</target>
+      <trans-unit id="2802239450650806481" datatype="html">
+        <source>aa icon</source>
+        <target>icono de aa</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="686693237118040455" datatype="html">
-        <source> Thank you for shopping with us and your order has been processed. </source>
-        <target> Gracias por comprar con nosotros y su pedido ha sido procesado. </target>
+      <trans-unit id="2077462078822024706" datatype="html">
+        <source> Thank you for flying with us and your ticket has been processed. </source>
+        <target> Gracias por volar con nosotros y su boleto ha sido procesado. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">10,13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8075168556531069883" datatype="html">
-        <source>Item</source>
-        <target>Articulo</target>
+      <trans-unit id="4338753104859818235" datatype="html">
+        <source>Cabin</source>
+        <target>Cabina</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7826783489111304264" datatype="html">
-        <source>Qty</source>
-        <target>Cant.</target>
+      <trans-unit id="4549015875790133899" datatype="html">
+        <source>Miles</source>
+        <target>Millas</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">17</context>

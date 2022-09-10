@@ -7,29 +7,31 @@ main {
     display: flex;
 }
 
-.shipping-icon {
-    height: 10%;
-    width: 10%;
+.aa-icon {
+    height: 20%;
+    width: 20%;
     margin-bottom: -3px;
+    margin-left: 800px;
 }
 
 .image-container {
     display: flex;
 }
 
-.hero-image {
-    width: 100%;
+.plane-image {
+    float: left;
+    width: 80%;
 }
 
 main>section>h2 {
     font-size: 40pt;
 }
 
-.shipping-details>p {
+.ticket-details>p {
     font-size: 20pt;
 }
 
-.shipping-details>table {
+.ticket-details>table {
     width: 100%;
     border-collapse: separate;
     border-spacing: 1em;
@@ -41,7 +43,7 @@ table>tr:last-child {
     font-size: 18pt;
 }
 
-.shipping-details>table th {
+.ticket-details>table th {
     text-align: left;
     font-weight: bold;
 }
