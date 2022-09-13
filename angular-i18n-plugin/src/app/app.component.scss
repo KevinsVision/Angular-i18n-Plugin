@@ -8,10 +8,8 @@ main {
 }
 
 .aa-icon {
-    height: 20%;
-    width: 20%;
-    margin-bottom: -3px;
-    margin-left: 800px;
+    max-height: 150px;
+    max-width: 25%;
 }
 
 .image-container {
@@ -19,8 +17,8 @@ main {
 }
 
 .plane-image {
-    float: left;
-    width: 80%;
+    max-width: 80%;
+    padding: auto;
 }
 
 main>section>h2 {
@@ -46,4 +44,12 @@ table>tr:last-child {
 .ticket-details>table th {
     text-align: left;
     font-weight: bold;
+}
+
+.header {
+    text-align: center;
+}
+
+.plural-expressions {
+    padding-top: 477px;
 }

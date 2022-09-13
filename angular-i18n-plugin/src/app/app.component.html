@@ -3,9 +3,9 @@
     <img alt="plane image" i18n-alt class="plane-image" src="assets/undraw1_order_confirmed_re_g0if.webp">
   </section>
   <section class="ticket-details">
+    <h1 class="header">{{ header }}</h1>
     <h2 i18n>
-      Your're closer to your destination!
-      <img alt="aa icon" i18n-alt class="aa-icon" src="assets/noun1-shipping-4326216-63D1FF.png">
+      You're closer to your destination!
     </h2>
     <p i18n>
       Thank you for flying with us and your ticket
@@ -34,9 +34,10 @@
       </tr>
     </table>
   </section>
-  <span i18n>Updated: {receipt.minutesUpdated, plural,
+  <img alt="aa icon" i18n-alt class="aa-icon" src="assets/noun1-shipping-4326216-63D1FF.png">
+  <span i18n class="plural-expressions">Updated: {receipt.minutesUpdated, plural,
     =0 {just now}
     =1 {one minute ago}
-    other {{{receipt.minutesUpdated}} minutes ago by {receipt.gender, select, male {male} female {female} other {other}}}}
+    other {{{receipt.minutesUpdated}} minutes ago}}
   </span>
 </main>

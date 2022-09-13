@@ -10,20 +10,12 @@
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6103207930768317609" datatype="html">
-        <source> Your&apos;re closer to your destination! <x id="TAG_IMG" ctype="image" equiv-text="&lt;img alt=&quot;aa icon&quot; i18n-alt class=&quot;aa-icon&quot; src=&quot;assets/noun1-shipping-4326216-63D1FF.png&quot;&gt;"/></source>
-        <target> Você está mais perto do seu destino! <x id="TAG_IMG" ctype="image" equiv-text="&lt;img alt=&quot;shipping icon&quot; i18n-alt class=&quot;shipping-icon&quot; src=&quot;../assets/noun-shipping-4326216-63D1FF.png&quot;&gt;"/></target>
+      <trans-unit id="4314196746274686159" datatype="html">
+        <source> You&apos;re closer to your destination! </source>
+        <target> Você está mais perto do seu destino! </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">6,8</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2802239450650806481" datatype="html">
-        <source>aa icon</source>
-        <target>ícone de aa</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">8</context>
+          <context context-type="linenumber">7,9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2077462078822024706" datatype="html">
@@ -71,23 +63,45 @@
         <target>Quantia</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">20</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="7084163895455121261" datatype="html">
-        <source>Updated: <x id="ICU" equiv-text="{minutes, plural, =0 {...} =1 {...} other {...}}"/></source>
-        <target>Atualizado: <x id="ICU" equiv-text="{minutes, plural, =0 {...} =1 {...} other {...}}"/></target>
-      </trans-unit>
-      <trans-unit id="2508975984005233379" datatype="html">
-        <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes ago by {VAR_SELECT, select, male {male} female {fêmea} other {other} }} }</source>
-        <target>{VAR_PLURAL, plural, =0 {agora mesmo} =1 {um minuto atrás} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutos atrás por {VAR_SELECT, select, male {macho} female {masculina} other {outro} }} }</target>
       </trans-unit>
       <trans-unit id="112783260724635106" datatype="html">
         <source>Total Amount</source>
         <target>Valor total</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2802239450650806481" datatype="html">
+        <source>aa icon</source>
+        <target>ícone de aa</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7084163895455121261" datatype="html">
+        <source>Updated: <x id="ICU" equiv-text="{receipt.minutesUpdated, plural,
+    =0 {just now}
+    =1 {one minute ago}
+    other {{{receipt.minutesUpdated}} minutes ago}}" xid="1887283401472369100"/> </source>
+    <target>Atualizado: <x id="ICU" equiv-text="{receipt.minutesUpdated, plural,
+    =0 {just now}
+    =1 {one minute ago}
+    other {{{receipt.minutesUpdated}} minutes ago}}" xid="1887283401472369100"/> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">38,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2002272803511843863" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<x id="INTERPOLATION"/> minutes ago}}</source>
+        <target>{VAR_PLURAL, plural, =0 {agora mesmo} =1 {um minuto atrás} other {<x id="INTERPOLATION"/> minutos atrás}}</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">38,41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1737753151350322492" datatype="html">
@@ -96,6 +110,14 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1158255078963147172" datatype="html">
+        <source>Ticket Confirmation</source>
+        <target>Confirmação de Ingresso</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
     </body>
