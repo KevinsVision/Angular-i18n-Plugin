@@ -7,17 +7,17 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "es-US": {
+          "es": {
             "translation": "src/locale/messages.es.xlf",
-            "baseHref": "es-US/"
+            "baseHref": ""
           },
-          "fr-CA": {
+          "fr": {
             "translation": "src/locale/messages.fr.xlf",
-            "baseHref": "fr-CA/"
+            "baseHref": ""
           },
-          "pt-BR": {
+          "pt": {
             "translation": "src/locale/messages.pt.xlf",
-            "baseHref": "pt-BR/"
+            "baseHref": ""
           }
         }
       },
@@ -34,9 +34,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "localize": [
-              "en-US"
-            ],
             "outputPath": "dist/angular-i18n-plugin",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -81,6 +78,21 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "es": {
+              "localize": ["es"],
+              "outputPath": "dist/angular-i18n-plugin/es-US",
+              "i18nMissingTranslation": "error"
+            },
+            "fr": {
+              "localize": ["fr"],
+              "outputPath": "dist/angular-i18n-plugin/fr-CA",
+              "i18nMissingTranslation": "error"
+            },
+            "pt": {
+              "localize": ["pt"],
+              "outputPath": "dist/angular-i18n-plugin/pt-BR",
+              "i18nMissingTranslation": "error"
             }
           },
           "defaultConfiguration": "production"
@@ -93,6 +105,15 @@
             },
             "development": {
               "browserTarget": "angular-i18n-plugin:build:development"
+            },
+            "es": {
+              "browserTarget": "angular-i18n-plugin:build:es"
+            },
+            "fr": {
+              "browserTarget": "angular-i18n-plugin:build:fr"
+            },
+            "pt": {
+              "browserTarget": "angular-i18n-plugin:build:pt"
             }
           },
           "defaultConfiguration": "development"

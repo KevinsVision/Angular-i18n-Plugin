@@ -23,4 +23,11 @@ export class AppComponent {
       currency: 1529.22,
     };
 
+    localesList = [
+      { code: 'en-US', label: 'English' },
+      { code: 'es-US', label: 'Spanish' },
+      { code: 'fr-CA', label: 'French' },
+      { code: 'pt-BR', label: 'Portuguese' }
+    ]
+
 }
