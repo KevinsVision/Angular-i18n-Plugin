@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+  <file datatype="plaintext" original="ng2.template" source-language="en-US" target-language="es-MX">
     <body>
       <trans-unit id="6478394265508229137" datatype="html">
         <source>plane image</source>
@@ -11,16 +11,16 @@
         </context-group>
       </trans-unit>
       <trans-unit id="4314196746274686159" datatype="html">
-        <source> You&apos;re closer to your destination! </source>
+        <source> You're closer to your destination! </source>
         <target> ¡Estás más cerca de tu destino! </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">14,16</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2077462078822024706" datatype="html">
-        <source> Thank you for flying with us and your ticket has been processed. </source>
-        <target> Gracias por volar con nosotros y su boleto ha sido procesado. </target>
+      <trans-unit id="5431289432547639516" datatype="html">
+        <source> Thank you for flying with us. Your ticket is being processed. </source>
+        <target> Gracias por volar con nosotros. Su boleto está siendo procesado.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">17,20</context>
@@ -82,18 +82,12 @@
           <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7084163895455121261" datatype="html">
-        <source>Updated: <x id="ICU" equiv-text="{receipt.minutesUpdated, plural,
-    =0 {just now}
-    =1 {one minute ago}
-    other {{{receipt.minutesUpdated}} minutes ago}}" xid="1887283401472369100"/> </source>
-    <target>Actualizado: <x id="ICU" equiv-text="{receipt.minutesUpdated, plural,
-    =0 {just now}
-    =1 {one minute ago}
-    other {{{receipt.minutesUpdated}} minutes ago}}" xid="1887283401472369100"/> </target>
+      <trans-unit id="338804801436880643" datatype="html">
+        <source>Updated: <x id="ICU" equiv-text="{counter, plural, =0 {just now} =1 {one minute ago} other {{{counter}} minutes ago}}" xid="1887283401472369100"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button (click)=&quot;changeCounter(-1)&quot;&gt;"/>-<x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/><x id="START_TAG_BUTTON_1" ctype="x-button_1" equiv-text="&lt;button (click)=&quot;changeCounter(1)&quot;&gt;"/>+<x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/></source>
+        <target>Actualizado: <x id="ICU" equiv-text="{counter, plural, =0 {just now} =1 {one minute ago} other {{{counter}} minutes ago}}" xid="1887283401472369100"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button (click)=&quot;changeCounter(-1)&quot;&gt;"/>-<x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/><x id="START_TAG_BUTTON_1" ctype="x-button_1" equiv-text="&lt;button (click)=&quot;changeCounter(1)&quot;&gt;"/>+<x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">45,49</context>
+          <context context-type="linenumber">45,52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2002272803511843863" datatype="html">
@@ -104,17 +98,17 @@
           <context context-type="linenumber">45,48</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1737753151350322492" datatype="html">
-        <source><x id="PH" equiv-text="this.title"/></source>
-        <target>Recibo</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="1158255078963147172" datatype="html">
         <source>Ticket Confirmation</source>
         <target>Confirmación de entrada</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1737753151350322492" datatype="html">
+        <source><x id="PH" equiv-text="this.title"/></source>
+        <target>Recibo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">16</context>

@@ -15,8 +15,8 @@
       You're closer to your destination!
     </h2>
     <p i18n>
-      Thank you for flying with us and your ticket
-      has been processed.
+      Thank you for flying with us. Your ticket
+      is being processed.
     </p>
     <table>
       <tr>
@@ -42,9 +42,13 @@
     </table>
   </section>
   <img alt="aa icon" i18n-alt class="aa-icon" src="assets/noun1-shipping-4326216-63D1FF.png">
-  <span i18n class="plural-expressions">Updated: {receipt.minutesUpdated, plural,
+  <span i18n class="plural-expressions">Updated: {counter, plural,
     =0 {just now}
     =1 {one minute ago}
-    other {{{receipt.minutesUpdated}} minutes ago}}
+    other {{{counter}} minutes ago}}
+    <br>
+    <br>
+    <button (click)="changeCounter(-1)">-</button>
+    <button (click)="changeCounter(1)">+</button>
   </span>
 </main>

@@ -8,15 +8,19 @@ import { Title } from '@angular/platform-browser';
 })
 export class AppComponent {
   title = 'Receipt';
+  counter = 1;
+  header: string = $localize`Ticket Confirmation`;
 
   constructor(private titleService: Title) {
     this.titleService.setTitle($localize`${this.title}`);
   }
 
-  header: string = $localize`Ticket Confirmation`;
+  public changeCounter(change:number)
+    {
+      this.counter = Math.max(0, this.counter+change);
+    }
 
   receipt = {
-      minutesUpdated: 1,
       miles: 10000,
       purchaseDate: "01/01/2023",
       cityTax: .086,
@@ -25,7 +29,7 @@ export class AppComponent {
 
     localesList = [
       { code: 'en-US', label: 'English' },
-      { code: 'es-US', label: 'Spanish' },
+      { code: 'es-MX', label: 'Spanish' },
       { code: 'fr-CA', label: 'French' },
       { code: 'pt-BR', label: 'Portuguese' }
     ]

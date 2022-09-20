@@ -7,15 +7,15 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "es": {
+          "es-MX": {
             "translation": "src/locale/messages.es.xlf",
             "baseHref": ""
           },
-          "fr": {
+          "fr-CA": {
             "translation": "src/locale/messages.fr.xlf",
             "baseHref": ""
           },
-          "pt": {
+          "pt-BR": {
             "translation": "src/locale/messages.pt.xlf",
             "baseHref": ""
           }
@@ -80,17 +80,17 @@
               "namedChunks": true
             },
             "es": {
-              "localize": ["es"],
-              "outputPath": "dist/angular-i18n-plugin/es-US",
+              "localize": ["es-MX"],
+              "outputPath": "dist/angular-i18n-plugin/es-MX",
               "i18nMissingTranslation": "error"
             },
             "fr": {
-              "localize": ["fr"],
+              "localize": ["fr-CA"],
               "outputPath": "dist/angular-i18n-plugin/fr-CA",
               "i18nMissingTranslation": "error"
             },
             "pt": {
-              "localize": ["pt"],
+              "localize": ["pt-BR"],
               "outputPath": "dist/angular-i18n-plugin/pt-BR",
               "i18nMissingTranslation": "error"
             }
