@@ -1,10 +1,3 @@
-<ul>
-  <li *ngFor="let locale of localesList">
-    <a href="/{{locale.code}}/">
-      {{locale.label}}
-    </a>
-  </li>
-</ul>
 <main>
   <section class="image-container">
     <img alt="plane image" i18n-alt class="plane-image" src="assets/undraw1_order_confirmed_re_g0if.webp">
@@ -27,7 +20,7 @@
         <th i18n>Amount</th>
       </tr>
       <tr>
-        <td>Premium Economy</td>
+        <td>Main Cabin</td>
         <td>{{receipt.miles | number}}</td>
         <td>{{receipt.purchaseDate| date}}</td>
         <td>{{receipt.cityTax| percent:'1.2-5'}}</td>
